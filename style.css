@@ -1,0 +1,495 @@
+* {
+  
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Times New Roman", Times, serif;
+  
+}
+.home {
+  background-color: #123332;
+  width: 100%;
+}
+
+nav {
+  padding: 4vw 3vw;
+  display: flex;
+  align-items: center;
+  gap:50%;
+  width: 100%;
+  height: 7vh;
+  position: relative;
+}
+nav img {
+  padding-top: 1vh;
+  width: 12%;
+  height: auto;
+  cursor: pointer;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10%;
+}
+nav ul a {
+  text-decoration: none;
+  color: #ffd9be;
+
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid #ffd9be;
+  border-radius: 50px;
+  padding: 0.5vw;
+}
+nav ul a:hover {
+  background-color: #ffd9be;
+  color: #123332;
+}
+.main {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+.main-right {
+  margin-right: 10%;
+  width: 30%;
+  height: 82vh;
+  background-image: url(./assests/iStock-1308375294-1536x1024.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.main-left {
+  padding: 0% 8%;
+  padding: 2% 10%;
+  width: 64%;
+  height: 82vh;
+}
+.main-left h1 {
+  color: #ffd9be;
+  font-size: 11vh;
+  font-weight: 300;
+}
+.main-left p {
+  color: #e1dbd5;
+  font-size: 1.8vw;
+  line-height: 1.4;
+  padding: 3vw 0vw;
+}
+.main-left #button {
+  text-decoration: none;
+  background-color: #ef9c82;
+  border-radius: 5px;
+  border-color: #e88f74;
+  padding: 1.2vw 2vw;
+  margin-right: 1vw;
+  color: #123332;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.mainFooter {
+  width: 100%;
+  height: 100vh;
+  padding: 8vw 13vw;
+}
+.mainFooter .mainh1 h1 {
+  color: #ffd9be;
+  font-size: 4vw;
+  font-weight: 300;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+.mainFooter .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 4vw;
+}
+.two {
+  margin-bottom: 2.5vw;
+}
+
+.three {
+  margin-top: 1vw;
+}
+.card .cardheading {
+  display: flex;
+  align-items: top;
+}
+.mainFooter .num {
+  text-align: center;
+  padding-top: 0.2vw;
+  background-color: #234a49;
+  width: 3vw;
+  height: 3vw;
+  color: #ffd9be;
+  border-radius: 6px;
+}
+.mainFooter .one h2,
+.two h2,
+.three h2 {
+  color: #ffd9be;
+  font-size: 2vw;
+  font-weight: 200;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+  padding-left: 2vw;
+}
+.mainFooter p {
+  color: #e1dbd5;
+  font-size: 1.5vw;
+  font-weight: 500;
+  padding-left: 5vw;
+  padding-right: 3vw;
+  margin-top: 2vw;
+  line-height: 1.6;
+}
+.services {
+  background-color: #123332;
+  width: 100%;
+  padding: 8vw 13vw;
+}
+.services h1 {
+  color: #ffd9be;
+  font-size: 4vw;
+  font-weight: 300;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+.services .card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.services .card div {
+  width: 20vw;
+  padding-right: 3vw;
+}
+.services .card .one {
+  margin-bottom: 4vw;
+}
+.services .card .two {
+  margin-bottom: 4vw;
+}
+.services .card .three {
+  margin-top: 3vw;
+}
+
+.services .card h2 {
+  margin: 2vw 0vw;
+  color: #ffd9be;
+  font-size: 2.4vw;
+  font-weight: 200;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+.services .card p {
+  color: #e1dbd5;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.ac {
+  display: flex;
+  margin-top: 10%;
+}
+.acleft {
+  width: 40%;
+  height: 80vh;
+  background-image: url(./assests/5.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+.acright {
+  margin-left: 10vw;
+}
+.acright h1 {
+  color: #ffd9be;
+  font-size: 4vw;
+  font-weight: 300;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+.acright h2 {
+  margin: 2vw 0vw;
+  color: #ffd9be;
+  font-size: 2.4vw;
+  font-weight: 200;
+}
+.acright p {
+  color: #e1dbd5;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.frezRepair {
+  margin: 6vw 10vw;
+  width: 80%;
+  height: 100vh;
+  background-color: #123332;
+  display: flex;
+  border-radius: 15px;
+}
+.fright {
+  width: 35%;
+  height: 90vh;
+  background-image: url(./assests/fridge-repair-costs.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  margin-top: 2vw;
+}
+.fleft {
+  padding: 2vw;
+  width: 60%;
+}
+.fleft h1 {
+  padding-left: 3vw;
+  color: #ffd9be;
+  font-size: 4vw;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+.fleft h2 {
+  padding-left: 3vw;
+  padding-top: 3vw;
+  color: #f8e0d1;
+  font-size: 3vw;
+  font-weight: 200;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+.fleft p {
+  padding-left: 3vw;
+  padding-top: 1vw;
+
+  color: #e1dbd5;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 1.6;
+}
+.about {
+  width: 100%;
+  height: 80vh;
+  margin: 6vw 0;
+  background-color: #123332;
+  padding: 6vw 13vw;
+}
+
+.about h1 {
+  color: #ffd9be;
+  font-size: 4.5vw;
+  font-weight: 300;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+.about .aboutmain {
+  display: flex;
+
+  gap: 1.5vw;
+  margin-top: 2vw;
+}
+.about .aboutmain .card {
+  padding: 2vw;
+  width: 30%;
+  height: 35vh;
+  border-radius: 6px;
+  background-color: #234a49;
+}
+.about .aboutmain .card h2 {
+  color: #f8dac8;
+  font-size: 2vw;
+  font-weight: 200;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+.about .aboutmain .card p {
+  color: #dedbd7;
+  margin-top: 1vw;
+  font-size: 1.5vw;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+.contact {
+  width: 100%;
+  height: 100vh;
+  background-color: #123332;
+  display: flex;
+  padding: 2vw 2vw;
+}
+.contact .form {
+  width: 50%;
+  height: 100%;
+}
+.contact .form h1 {
+  padding-left: 3vw;
+  color: #ffd9be;
+  font-size: 4vw;
+  font-weight: 700;
+  word-spacing: 2px;
+  letter-spacing: 2;
+}
+
+.contact form input {
+  margin: 1vw;
+  font-size: large;
+  border: none;
+  padding: 1vw;
+  color: #e1dbd5;
+  background-color: #234a49;
+}
+.contact form textarea {
+  font-size: large;
+  margin-left: 1vw;
+  border: none;
+  padding: 1vw;
+  color: #e1dbd5;
+  background-color: #234a49;
+  font-size: large;
+}
+.submit {
+  background-color: #ef9c82;
+  border-radius: 5px;
+  margin-left: 1vw;
+
+  border-color: #e88f74;
+  padding: 1.2vw 2vw;
+  margin-right: 1vw;
+  color: #123332;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+.details {
+  width: 60%;
+  padding-left: 10vw;
+}
+.details .name {
+  color: #ffd9be;
+  font-size: larger;
+  padding: 2vw 0;
+}
+.details .callingNo {
+  padding: 1vw 0;
+}
+.details .email {
+  padding: 1vw 0;
+}
+.details .callingNo a {
+  color: #ffd9be;
+  font-size: larger;
+  padding: 2vw 0;
+
+  text-decoration: none;
+}
+.details .email {
+  color: #ffd9be;
+  font-size: larger;
+  padding-left: 2vw 0;
+
+  text-decoration: none;
+}
+.details Address {
+  color: #ffd9be;
+  font-size: larger;
+  padding: 3vw 0;
+}
+.details .callingNo a:hover {
+  color: #e88f74;
+}
+.details .email:hover {
+  color: #e88f74;
+}
+@media screen and (max-width: 720px){
+  .home{
+  width: 100vh;
+  }
+  nav{
+    height: 20vh;
+    justify-content: space-between;
+  } 
+  nav a{
+    display: none;
+   }
+   nav img{
+    width: 20vh;
+   }
+   nav .no{
+    display: block;
+    font-size: 4vh;
+   }
+   .main{
+    flex-direction: column-reverse;
+   }
+   .main-left p{
+    font-size: 3vh;
+   }
+   .main-left #button {
+    font-size: 4vh;
+    margin-top: 4vh;
+  }
+  .main-right{
+    width: 90vh;
+    height: 50%;
+    margin: auto;
+  }
+  .mainFooter .mainh1 h1{
+    font-size:  12vw;
+    
+  }
+  
+  .mainFooter .card {
+    flex-direction: column;
+    margin-top: 4vw;
+  }
+  .two {
+    
+  }
+  
+  .three {
+    
+  }
+  .card .cardheading {
+    display: flex;
+    align-items: center;
+  }
+  .mainFooter .num {
+    text-align: center;
+    padding-top: 0.2vw;
+    background-color: #234a49;
+    width: 3vw;
+    height: 3vw;
+    color: #ffd9be;
+    border-radius: 6px;
+  }
+  .mainFooter .one h2,
+  .two h2,
+  .three h2 {
+    color: #ffd9be;
+    font-size: 2vw;
+    font-weight: 200;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+    padding-left: 2vw;
+  }
+  .mainFooter p {
+    color: #e1dbd5;
+    font-size: 1.5vw;
+    font-weight: 500;
+    padding-left: 5vw;
+    padding-right: 3vw;
+    margin-top: 2vw;
+    line-height: 1.6;
+  }
+}
+@media screen and (min-width: 720px) and (max-width: 1024px){
+
+}
