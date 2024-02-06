@@ -1,10 +1,8 @@
 * {
-  
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Times New Roman", Times, serif;
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
 }
 .home {
   background-color: #123332;
@@ -15,7 +13,7 @@ nav {
   padding: 4vw 3vw;
   display: flex;
   align-items: center;
-  gap:50%;
+  gap: 50%;
   width: 100%;
   height: 7vh;
   position: relative;
@@ -408,88 +406,235 @@ nav ul a:hover {
 .details .email:hover {
   color: #e88f74;
 }
-@media screen and (max-width: 720px){
-  .home{
-  width: 100vh;
+@media screen and (max-width: 720px) {
+  .home {
+    width: 100vh;
   }
-  nav{
+  nav {
     height: 20vh;
     justify-content: space-between;
-  } 
-  nav a{
+  }
+  nav a {
     display: none;
-   }
-   nav img{
+  }
+  nav img {
     width: 20vh;
-   }
-   nav .no{
+  }
+  nav .no {
     display: block;
     font-size: 4vh;
-   }
-   .main{
+  }
+  .main {
     flex-direction: column-reverse;
-   }
-   .main-left p{
+    border-bottom: 2px solid #e1dbd5;
+  }
+  .main-left p {
     font-size: 3vh;
-   }
-   .main-left #button {
+  }
+  .main-left #button {
     font-size: 4vh;
     margin-top: 4vh;
   }
-  .main-right{
+  .main-right {
     width: 90vh;
     height: 50%;
     margin: auto;
   }
-  .mainFooter .mainh1 h1{
-    font-size:  12vw;
-    
+  .mainFooter {
+    border-bottom: 2px solid #e1dbd5;
   }
-  
+  .mainFooter .mainh1 h1 {
+    font-size: 14vw;
+    margin-bottom: 8vh;
+  }
+
   .mainFooter .card {
     flex-direction: column;
     margin-top: 4vw;
   }
-  .two {
+  .mainFooter .card .cardheading h1 {
+    font-size: 10vw;
+  }
+  .mainFooter .card .cardheading h2 {
+    font-size: 10vw;
+    margin-left: 2vw;
+  }
+  .mainFooter .card p {
+    font-size: 8vw;
+  }
+  .services {
+    width: 100vh;
+  }
+  .services h1 {
+    font-size: 15vw;
+  }
+  .services .card {
+    flex-direction: column;
+  }
+  .services .card div {
+    width: 80vh;
+  }
+  .services .card .one h2 {
+    font-size: 6vh;
+  }
+  .services .card .one p {
+    font-size: 4vh;
+  }
+  .services .card .two h2 {
+    font-size: 6vh;
+  }
+  .services .card .two p {
+    font-size: 4vh;
+  }
+  .services .card .three h2 {
+    font-size: 6vh;
+  }
+  .services .card .three p {
+    font-size: 4vh;
+  }
+  .services .card .four h2 {
+    font-size: 6vh;
+  }
+  .services .card .four p {
+    font-size: 4vh;
+  }
+
+  .ac {
+    border-top: 2px solid #e1dbd5;
+    padding-top: 6vh;
+    flex-direction: column;
+    margin-top: 10%;
+  }
+  .acleft {
+    width: 95%;
+    height: 90vh;
+    border-radius: 15px;
+  }
+
+  .acright h1 {
+    font-size: 8vh;
+  }
+  .acright h2 {
+    font-size: 4vh;
+  }
+  .acright p {
+    font-size: 6vw;
+  }
+  .frezRepair {
+    flex-direction: column-reverse;
+    width: 90vh;
+    padding-top: 4vh;
+    min-height: 100vh;
+  }
+  .fright {
+    width: 100%;
+
+    border-radius: 0px;
+  }
+  .fleft {
+    padding: 2vw;
+    width: 80%;
+  }
+  .fleft h1 {
+    font-size: 6vh;
+  }
+  .fleft h2 {
+    font-size: 6vh;
+  }
+  .fleft p {
+    font-size: 3.2vh;
+  }
+  .about {
+    width: 100vh;
+  }
+
+  .about h1 {
+    font-size: 8vh;
+  }
+  .about .aboutmain {
+    flex-direction: column;
+  }
+  .about .aboutmain .card {
+    width: 80%;
+    height: 20vh;
+  }
+  .about .aboutmain .card h2 {
+    font-size: 6vh;
+  }
+  .about .aboutmain .card p {
+    font-size: 6vw;
+  }
+  .contact {
+    width: 100vh;
+    flex-direction: column;
+    height: 110vh;
+  }
+  .contact .form {
+    width: 90vh;
+  }
+  .contact .form h1 {
+    font-size: 8vh;
     
   }
   
-  .three {
+  .contact form input {
+    
+    font-size: 4vh;
+    margin: 2vh;
     
   }
-  .card .cardheading {
-    display: flex;
-    align-items: center;
+  .contact form textarea {
+    font-size: 4vh;
+    width: 80vh;
+    
   }
-  .mainFooter .num {
-    text-align: center;
-    padding-top: 0.2vw;
-    background-color: #234a49;
-    width: 3vw;
-    height: 3vw;
+  .submit {
+    font-size: 4vh;
+    margin-top: 2vh;
+    margin-left: 30vh;
+  }
+  .details {
+    width: 60vh;
+  }
+  .details .name h2 {
+    
+    font-size: 6vh;
+    
+  }
+  .details .callingNo {
+    font-size: 3vh;
+  }
+  .details .callingNo a {
     color: #ffd9be;
-    border-radius: 6px;
+    font-size: larger;
+    padding: 2vw 0;
+  
+    text-decoration: none;
   }
-  .mainFooter .one h2,
-  .two h2,
-  .three h2 {
-    color: #ffd9be;
-    font-size: 2vw;
-    font-weight: 200;
-    word-spacing: 4px;
-    letter-spacing: 1px;
-    padding-left: 2vw;
-  }
-  .mainFooter p {
-    color: #e1dbd5;
-    font-size: 1.5vw;
-    font-weight: 500;
-    padding-left: 5vw;
-    padding-right: 3vw;
-    margin-top: 2vw;
-    line-height: 1.6;
-  }
+ 
+  
 }
-@media screen and (min-width: 720px) and (max-width: 1024px){
+@media  (min-width: 720px) and (max-width: 1024px){
+  .home {
 
+    width: 100vw;
+  }
+  
+  
+  
+  
+  nav ul a {
+    display: none;
+  }
+  nav .no{
+    display: block !important;
+  }
+ 
+  
+  .contact {
+    
+    height: 110vh;
+    
+  }
+ 
 }
